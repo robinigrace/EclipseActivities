@@ -1,0 +1,468 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-11T12:19:37.408Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1784700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 125400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 115100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9381708800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "",
+        "description": "\t\t\t\tTo validate forgotten password",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 133300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1803499700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User have to enter facebook login through chrome browser",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_facebook_login_through_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[text()\u003d\u0027Forgotten password\u0027]\"}\n  (Session info: chrome\u003d120.0.6099.71)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.13.0\u0027, revision: \u0027ba948ece5b*\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_371\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a77741991a76c5f65c3dfed95fa7d049, findElement {using\u003dxpath, value\u003d//a[text()\u003d\u0027Forgotten password\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\\Users\\DT434\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64887}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64887/devtoo..., se:cdpVersion: 120.0.6099.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: a77741991a76c5f65c3dfed95fa7d049\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy22.click(Unknown Source)\r\n\tat org.base.BaseClass.btnClick(BaseClass.java:57)\r\n\tat org.stepdefinition.StepDefinition.user_have_to_click_forgotten_password(StepDefinition.java:131)\r\n\tat ✽.User have to click forgotten password(file:ForgotPassword.feature:9)\r\n",
+              "duration": 10165333300,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "User have to click forgotten password",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_forgotten_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2931500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User have to enter email or phoneNo",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_email_or_phoneNo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1814800,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User have to click search button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Forgot"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "\t\t\tTo validate forgotten password functionality of facebook application",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:ForgotPassword.feature",
+    "tags": [
+      {
+        "name": "@Forgot",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2112658400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to validate the login functionality using chrome browser",
+            "match": {
+              "location": "StepDefinition.user_have_to_validate_the_login_functionality_using_chrome_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-11T12:19:58.901Z",
+        "before": [
+          {
+            "result": {
+              "duration": 327200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 128400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 173700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3119159300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To validate the login page in valid emailAdd and invalid Password",
+        "description": "",
+        "id": "to-validate-facebook-login-functionality-using-chrome-browser;to-validate-the-login-page-in-valid-emailadd-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 134100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 413756200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User have to enter valid emailAdd and invalid PassWord",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_valid_emailAdd_and_invalid_PassWord(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "anitha"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "876565"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "Greens@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3129836000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User have to click the login button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7071519600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User have to check is in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_have_to_check_is_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2206674200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to validate the login functionality using chrome browser",
+            "match": {
+              "location": "StepDefinition.user_have_to_validate_the_login_functionality_using_chrome_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-11T12:20:14.783Z",
+        "before": [
+          {
+            "result": {
+              "duration": 138200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 118000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 118000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3973047500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To validate the login page with Invalid usernameAdd and invalid password",
+        "description": "",
+        "id": "to-validate-facebook-login-functionality-using-chrome-browser;to-validate-the-login-page-with-invalid-usernameadd-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 111000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 359003800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User have to enter Invalid usernameAdd and invalid password",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_Invalid_usernameAdd_and_invalid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "Email",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "Selenium",
+                  "greens@gmail.com",
+                  "54545454"
+                ]
+              },
+              {
+                "cells": [
+                  "java123",
+                  "Greens",
+                  "uytr566"
+                ]
+              },
+              {
+                "cells": [
+                  "pythonsel",
+                  "Pythonsel",
+                  "0998087"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3190447400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User have to click the login button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12074900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User have to check is in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_have_to_check_is_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate facebook login functionality using chrome browser",
+    "description": "",
+    "id": "to-validate-facebook-login-functionality-using-chrome-browser",
+    "keyword": "Feature",
+    "uri": "file:Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
